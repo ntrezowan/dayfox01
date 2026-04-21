@@ -1,0 +1,60 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Dayfox01",
+  "description": "Dayfox for Chrome — ported from EdenEast/nightfox.nvim",
+  "icons": {
+    "16":  "images/icon16.png",
+    "48":  "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "frame":                    [224, 216, 206],
+      "frame_inactive":           [232, 225, 216],
+      "frame_incognito":          [200, 190, 178],
+      "frame_incognito_inactive": [215, 206, 195],
+
+      "toolbar":                  [246, 242, 238],
+
+      "tab_text":                 [60,  44,  62],
+      "tab_background_text":      [138, 122, 108],
+
+      "bookmark_text":            [90,  74,  94],
+
+      "ntp_background":           [246, 242, 238],
+      "ntp_text":                 [60,  44,  62],
+      "ntp_link":                 [40,  72,  169],
+      "ntp_link_underline":       [40,  72,  169],
+      "ntp_header":               [224, 216, 206],
+      "ntp_section":              [237, 232, 226],
+      "ntp_section_text":         [90,  74,  94],
+      "ntp_section_link":         [40,  121, 128],
+      "ntp_section_link_underline":[40, 121, 128],
+
+      "button_background":        [246, 242, 238],
+
+      "omnibox_text":             [60,  44,  62],
+      "omnibox_background":       [237, 232, 226],
+      "omnibox_background_hovered":[212, 202, 187],
+      "omnibox_selected_keyword_background": [212, 202, 187]
+    },
+
+    "tints": {
+      "buttons":           [0.08, 0.45, 0.38],
+      "frame":             [-1,  -1,   -1],
+      "frame_inactive":    [-1,  -1,   1.05],
+      "frame_incognito":   [-1,  -1,   -1],
+      "background_tab":    [-1,  -1,   1.08]
+    },
+
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat":    "no-repeat",
+      "ntp_logo_alternate":       0
+    }
+  }
+}
